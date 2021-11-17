@@ -124,10 +124,9 @@ img {
   display: flex;
 }
 
-.header-navigation {
+.header-contacts {
+  display: flex;
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-logo {
@@ -216,8 +215,7 @@ img {
 /* достоинства */
 
 .hidden {
-  padding-top: 107px;
-  padding-bottom: 81px;
+  padding-top: 94px;
 }
 
 .hidden-list {
@@ -281,7 +279,7 @@ img {
 .gallery-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 2.62;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
@@ -383,6 +381,7 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 20px;
+  display: block;
 }
 
 .footer-link {
@@ -419,6 +418,7 @@ img {
 .portfolio-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 54px;
 }
 
 .portfolio-nav {
@@ -444,7 +444,6 @@ img {
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
-  margin-bottom: 34px;
 }
 
 .portfolio-btn:focus,
@@ -462,13 +461,13 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-bottom: -30px;
+  margin-top: -30px;
 }
 
 .portfolio-glr-item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
-  margin-bottom: 30px;
+  margin-top: 30px;
   background: var(--second-text-color);
 }
 
@@ -477,6 +476,9 @@ img {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .portfolio-title {
@@ -493,10 +495,4 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-}
-
-.portfolio-glr-item {
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
 }
