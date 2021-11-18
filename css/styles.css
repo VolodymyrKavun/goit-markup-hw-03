@@ -261,7 +261,7 @@ img {
 
 .gallery {
   padding-bottom: 94px;
-  padding-top: 81px;
+  padding-top: 94px;
 }
 
 .gallery-title {
@@ -295,13 +295,10 @@ img {
 
 .masters-list {
   display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
 }
 
-.masters-item {
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
+.masters-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .masters-lead {
